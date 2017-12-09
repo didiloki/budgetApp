@@ -1,6 +1,7 @@
 /*
   General Styles Information
 */
+body{text-transform: uppercase;}
 .left{ float: left; }
 .right{ float:right;}
 .padTop5{ padding-top: 5px;}
