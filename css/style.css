@@ -1,0 +1,86 @@
+/*
+  General Styles Information
+*/
+.left{ float: left; }
+.right{ float:right;}
+.padTop5{ padding-top: 5px;}
+.marginRight5{ margin-right: 5px;}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.explist,.inclist{
+  width: 50%;
+  float: left;
+}
+/* Header Styles */
+.top{
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('../assets/img/abuja.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.top .totalBudget{
+  font-weight: 700;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+
+}
+
+.top .totalIncome{
+  margin-bottom: 10px;
+  background-color: #28B9B5;
+  padding: 15px;
+}
+.top .totalExpense{
+  margin-bottom: 10px;
+  background-color: #f25252;
+  padding: 10px;
+}
+
+.top .percentage{
+    padding: 5px;
+    background-color: #f27f7f;
+}
+.add{
+  padding: 14px;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f7f7f7;
+}
+
+/* each item exp or inc */
+.item:first-child{
+  border-top: 1px solid #e7e7e7;
+}
+.item {
+  padding: 13px;
+  width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.item:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+.item-desc{
+  float:left;
+}
+
+.item_delete{
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.item_delete:hover{
+  opacity: 1;
+}
